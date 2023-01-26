@@ -2,6 +2,10 @@ html,
 body {
   height: 100%;
 }
+nav img {
+  background-color: white;
+  border-radius: 25px;
+}
 
 .row {
   display: flex;
@@ -20,7 +24,10 @@ body {
   margin-bottom: 0;
   margin-right: 0.5rem;
 }
-
-.navbar-toggler-icon {
-  color: white;
+.textWrapper {
+  width: 100%;
+}
+#skipBtn {
+  justify-self: end;
+  align-self: end;
 }
